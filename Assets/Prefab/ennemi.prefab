@@ -240,7 +240,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -771,6 +771,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Survivor A Lusth@Dwarf Walk
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6d3ae1865fe40c342969eb4e9d18c845,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1092408308860062549, guid: 6d3ae1865fe40c342969eb4e9d18c845,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -875,6 +880,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 17.18722
+      objectReference: {fileID: 0}
+    - target: {fileID: 2840883237294842701, guid: 6d3ae1865fe40c342969eb4e9d18c845,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2916570863362053800, guid: 6d3ae1865fe40c342969eb4e9d18c845,
         type: 3}
@@ -1173,7 +1183,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &8776152270684578385
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1187,6 +1197,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -1268,27 +1279,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8807204533817979089, guid: a78a725941312494b930d664f3b315d0,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 3c8d0f292b1826d4b871382418b2f787, type: 2}
     - target: {fileID: 8807204533817979091, guid: a78a725941312494b930d664f3b315d0,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 3c8d0f292b1826d4b871382418b2f787, type: 2}
     - target: {fileID: 8807204533817979093, guid: a78a725941312494b930d664f3b315d0,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 3c8d0f292b1826d4b871382418b2f787, type: 2}
     - target: {fileID: 8807204533817979095, guid: a78a725941312494b930d664f3b315d0,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 3c8d0f292b1826d4b871382418b2f787, type: 2}
     - target: {fileID: 8807204533817979101, guid: a78a725941312494b930d664f3b315d0,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 3c8d0f292b1826d4b871382418b2f787, type: 2}
     m_RemovedComponents:
