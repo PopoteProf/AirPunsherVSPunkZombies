@@ -1512,7 +1512,7 @@ PrefabInstance:
     - target: {fileID: 6615848287602309367, guid: 852634c41877ce440a10fbc0e0a5a08b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.9925351
+      value: -8.93
       objectReference: {fileID: 0}
     - target: {fileID: 6615848287602309367, guid: 852634c41877ce440a10fbc0e0a5a08b,
         type: 3}
@@ -1626,6 +1626,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ProjectilVisual
+      objectReference: {fileID: 0}
+    - target: {fileID: 4075847377711708807, guid: c7a3ae1f1a637bd46a0a72dcf1e204d9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
