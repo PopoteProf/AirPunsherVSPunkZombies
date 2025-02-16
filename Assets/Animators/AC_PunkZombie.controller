@@ -80,7 +80,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Shooting
-  m_Speed: 1
+  m_Speed: 2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 2726914366876709424}
@@ -134,7 +134,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Dwarf Walk
-  m_Speed: 1
+  m_Speed: 1.15
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -5121966132015952551}
@@ -381,7 +381,7 @@ AnimatorStateMachine:
     m_Position: {x: 520, y: 110, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4835047463199940442}
-    m_Position: {x: 320, y: -140, z: 0}
+    m_Position: {x: 400, y: -140, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7716592583003268070}
     m_Position: {x: 400, y: 10, z: 0}
@@ -394,7 +394,7 @@ AnimatorStateMachine:
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 100, y: -100, z: 0}
+  m_AnyStatePosition: {x: 140, y: -130, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 710, y: -60, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
