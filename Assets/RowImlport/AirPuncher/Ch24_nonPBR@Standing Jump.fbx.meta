@@ -16,8 +16,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 1
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -62,10 +60,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: JumpingUp
+      name: A_JumpingUp
       takeName: mixamo.com
       internalID: 4975000779425203531
-      firstFrame: 20
+      firstFrame: 0
       lastFrame: 21
       wrapMode: 0
       orientationOffsetY: 0
@@ -91,11 +89,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: JumpingDown
+      name: A_JumpingDown
       takeName: mixamo.com
       internalID: 6594129706089009828
-      firstFrame: 28
-      lastFrame: 29
+      firstFrame: 25.1
+      lastFrame: 57
       wrapMode: 0
       orientationOffsetY: 0
       level: 0.3
@@ -120,11 +118,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: JumpingLanding
+      name: A_JumpingLanding
       takeName: mixamo.com
       internalID: 8995066095263902155
-      firstFrame: 34
-      lastFrame: 57
+      firstFrame: 22.2
+      lastFrame: 24.5
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -132,7 +130,7 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 0
-      loopBlend: 0
+      loopBlend: 1
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 1
